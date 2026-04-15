@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 
-<html class="dark" dir="rtl" lang="ar"><head>
+<html class="dark" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&amp;family=Manrope:wght@200;400;600;800&amp;family=Cairo:wght@400;700;900&amp;family=Tajawal:wght@400;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&amp;family=Manrope:wght@300;400;500;600;700;800&amp;family=Tajawal:wght@400;500;700;800&amp;family=Cairo:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
@@ -13,57 +13,57 @@
         theme: {
           extend: {
             "colors": {
+                    "surface-container-highest": "#262626",
+                    "on-secondary-container": "#fff6f3",
                     "surface-tint": "#8eff71",
-                    "inverse-surface": "#f9f9f9",
-                    "outline-variant": "#484848",
-                    "error-container": "#b92902",
-                    "inverse-on-surface": "#555555",
-                    "outline": "#757575",
-                    "secondary": "#ff7441",
-                    "primary-container": "#2ff801",
-                    "on-primary-fixed": "#064200",
-                    "on-background": "#ffffff",
+                    "tertiary-container": "#00e3fd",
+                    "on-primary-fixed-variant": "#0d6200",
                     "on-primary-container": "#0b5800",
+                    "error": "#ff7351",
+                    "inverse-on-surface": "#555555",
+                    "tertiary-fixed": "#00e3fd",
+                    "secondary": "#ff7441",
                     "secondary-container": "#ab3600",
-                    "surface-dim": "#0e0e0e",
+                    "on-tertiary-fixed": "#003840",
+                    "on-primary-fixed": "#064200",
+                    "surface-container-low": "#131313",
+                    "secondary-dim": "#ff7441",
+                    "surface-bright": "#2c2c2c",
+                    "surface-container": "#191919",
+                    "on-surface": "#ffffff",
+                    "outline-variant": "#484848",
+                    "on-secondary-fixed-variant": "#932d00",
+                    "on-primary": "#0d6100",
+                    "on-background": "#ffffff",
+                    "on-secondary": "#410f00",
+                    "primary-fixed": "#2ff801",
+                    "on-tertiary-container": "#004d57",
+                    "surface": "#0e0e0e",
+                    "background": "#0e0e0e",
+                    "primary-dim": "#2be800",
                     "on-error-container": "#ffd2c8",
-                    "surface-variant": "#262626",
+                    "secondary-fixed-dim": "#ffb197",
+                    "on-tertiary": "#005762",
+                    "on-surface-variant": "#ababab",
+                    "inverse-surface": "#f9f9f9",
+                    "error-dim": "#d53d18",
+                    "secondary-fixed": "#ffc4b1",
                     "on-error": "#450900",
                     "tertiary": "#81ecff",
-                    "tertiary-fixed": "#00e3fd",
-                    "on-secondary-fixed": "#631b00",
-                    "on-primary-fixed-variant": "#0d6200",
-                    "surface-container-high": "#1f1f1f",
-                    "tertiary-fixed-dim": "#00d4ec",
-                    "on-surface": "#ffffff",
-                    "primary-fixed": "#2ff801",
-                    "error-dim": "#d53d18",
-                    "surface-bright": "#2c2c2c",
-                    "on-primary": "#0d6100",
-                    "on-secondary-container": "#fff6f3",
-                    "inverse-primary": "#106f00",
-                    "tertiary-container": "#00e3fd",
-                    "error": "#ff7351",
-                    "secondary-fixed-dim": "#ffb197",
-                    "background": "#0e0e0e",
-                    "on-secondary-fixed-variant": "#932d00",
+                    "primary-container": "#2ff801",
                     "surface-container-lowest": "#000000",
-                    "on-surface-variant": "#ababab",
-                    "surface": "#0e0e0e",
-                    "on-tertiary-container": "#004d57",
-                    "surface-container": "#191919",
-                    "secondary-fixed": "#ffc4b1",
-                    "primary": "#8eff71",
-                    "secondary-dim": "#ff7441",
-                    "on-tertiary-fixed-variant": "#005762",
-                    "on-secondary": "#410f00",
                     "tertiary-dim": "#00d4ec",
-                    "primary-fixed-dim": "#2be800",
-                    "primary-dim": "#2be800",
-                    "surface-container-low": "#131313",
-                    "on-tertiary-fixed": "#003840",
-                    "on-tertiary": "#005762",
-                    "surface-container-highest": "#262626"
+                    "tertiary-fixed-dim": "#00d4ec",
+                    "outline": "#757575",
+                    "inverse-primary": "#106f00",
+                    "error-container": "#b92902",
+                    "primary": "#8eff71",
+                    "on-secondary-fixed": "#631b00",
+                    "surface-variant": "#262626",
+                    "on-tertiary-fixed-variant": "#005762",
+                    "surface-container-high": "#1f1f1f",
+                    "surface-dim": "#0e0e0e",
+                    "primary-fixed-dim": "#2be800"
             },
             "borderRadius": {
                     "DEFAULT": "0.125rem",
@@ -72,9 +72,9 @@
                     "full": "0.75rem"
             },
             "fontFamily": {
-                    "headline": ["Space Grotesk", "Cairo"],
-                    "body": ["Manrope", "Tajawal"],
-                    "label": ["Space Grotesk", "Tajawal"]
+                    "headline": ["Space Grotesk"],
+                    "body": ["Manrope"],
+                    "label": ["Space Grotesk"]
             }
           },
         },
@@ -85,248 +85,315 @@
             font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
         }
         .neon-glow-primary {
-            box-shadow: 0 0 15px rgba(142, 255, 113, 0.3);
+            box-shadow: 0 0 15px rgba(57, 255, 20, 0.4);
         }
         .neon-text-primary {
-            text-shadow: 0 0 8px rgba(142, 255, 113, 0.6);
+            text-shadow: 0 0 8px rgba(57, 255, 20, 0.6);
         }
-        .kinetic-void-bg {
-            background: radial-gradient(circle at 50% 50%, #1a1a1a 0%, #0e0e0e 100%);
+        ::-webkit-scrollbar {
+            width: 4px;
         }
-        body {
-            font-family: 'Manrope', 'Tajawal', sans-serif;
+        ::-webkit-scrollbar-track {
+            background: #0e0e0e;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1f1f1f;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #39FF14;
         }
     </style>
 </head>
-<body class="bg-background text-on-background kinetic-void-bg min-h-screen overflow-hidden">
+<body class="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">
 <!-- TopNavBar -->
-<nav class="flex justify-between items-center w-full px-6 py-4 fixed top-0 z-50 bg-[#0e0e0e]">
-<div class="flex items-center gap-4">
-<span class="text-2xl font-black italic text-[#39FF14] drop-shadow-[0_0_8px_rgba(57,255,20,0.6)] font-space-grotesk tracking-tighter uppercase">AL-QALLABI</span>
-</div>
-<div class="hidden md:flex items-center gap-8 font-space-grotesk tracking-tighter uppercase">
-<a class="text-[#39FF14] border-b-2 border-[#39FF14] hover:text-[#39FF14] hover:drop-shadow-[0_0_5px_#39FF14] transition-all scale-95 active:duration-75" href="#">Lobbies</a>
-<a class="text-gray-500 hover:text-[#39FF14] hover:drop-shadow-[0_0_5px_#39FF14] transition-all scale-95 active:duration-75" href="#">Leaderboard</a>
-<a class="text-gray-500 hover:text-[#39FF14] hover:drop-shadow-[0_0_5px_#39FF14] transition-all scale-95 active:duration-75" href="#">Store</a>
-</div>
-<div class="flex items-center gap-4 text-[#39FF14]">
-<button class="material-symbols-outlined hover:drop-shadow-[0_0_5px_#39FF14] transition-all" data-icon="settings">settings</button>
-<button class="material-symbols-outlined hover:drop-shadow-[0_0_5px_#39FF14] transition-all" data-icon="account_circle">account_circle</button>
-</div>
-<div class="bg-gradient-to-r from-transparent via-[#39FF14]/20 to-transparent h-[1px] w-full absolute bottom-0 right-0"></div>
+<header class="fixed top-0 w-full z-50 bg-[#131313] shadow-[0_4px_20px_rgba(0,0,0,0.5)] flex justify-between items-center px-6 h-16 w-full">
+<div class="flex items-center gap-8">
+<span class="text-2xl font-black italic text-[#39FF14] drop-shadow-[0_0_8px_rgba(57,255,20,0.6)] font-['Space_Grotesk'] tracking-tighter uppercase">AL-QALLABI</span>
+<nav class="hidden md:flex gap-6 font-['Space_Grotesk'] tracking-tighter uppercase">
+<a class="text-[#ababab] hover:text-[#39FF14] transition-colors duration-300 active:scale-95 duration-150" href="#">Home</a>
+<a class="text-[#ababab] hover:text-[#39FF14] transition-colors duration-300 active:scale-95 duration-150" href="#">Lobbies</a>
+<a class="text-[#39FF14] border-b-2 border-[#39FF14] pb-1 active:scale-95 duration-150" href="#">Leaderboard</a>
+<a class="text-[#ababab] hover:text-[#39FF14] transition-colors duration-300 active:scale-95 duration-150" href="#">Store</a>
 </nav>
-<!-- SideNavBar (OPERATOR Panel) -->
-<aside class="fixed right-0 top-0 h-full pt-20 pb-6 flex flex-col z-40 bg-[#131313]/90 backdrop-blur-xl shadow-[10px_0_30px_rgba(0,0,0,0.5)] w-72 border-l border-[#39FF14]/10">
-<div class="px-6 mb-8">
-<div class="flex items-center justify-between">
-<div>
-<h2 class="text-[#39FF14] font-black font-headline text-lg">OPERATOR</h2>
-<div class="flex items-center gap-2">
-<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
-<span class="text-[10px] text-on-surface-variant tracking-widest uppercase">ONLINE</span>
 </div>
-</div>
-<div class="w-12 h-12 rounded-lg border-2 border-primary/30 p-0.5 overflow-hidden">
-<img alt="Player Avatar" class="w-full h-full object-cover" data-alt="Stylized neon cyber-punk profile avatar with glowing green accents and dark visor" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1_kUaXyafe_s9udcpE0fs0vUAHd3PGrqM8jTgBsd9_gXNgfn6xdjOlgCBFS1Elt6uhRMTivWIpA-S7R1a9gyuUJVmRVt3Y7y04vgVaqeRAeGvSS3ELJNqflksfKwqah2XIaDGNBGWloV7eo2T44UPv2fYWnZELSMy0gkEk01tK8zRxDOJ6ORwfYKdE1UqPx_uftFz-9RX6lBIGzYF4HX48DnxNHNFisz7sr8XHyJ_H7Sktz-wBj9xuQ30VZ5vjRKp067_h9S7ZiI"/>
-</div>
-</div>
-</div>
-<div class="flex-grow space-y-1">
-<div class="px-3">
-<p class="px-3 text-[10px] text-on-surface-variant font-bold mb-4 tracking-widest">قائمة اللاعبين (8/12)</p>
-<!-- Player Item -->
-<div class="text-[#39FF14] bg-[#39FF14]/5 border-r-4 border-[#39FF14] pr-4 py-3 flex items-center gap-3 transition-colors translate-x-1 duration-200">
-<span class="material-symbols-outlined text-xl" data-icon="stars" style="font-variation-settings: 'FILL' 1;">stars</span>
-<span class="font-bold text-sm">أحمد المضيف</span>
-<span class="mr-auto text-[10px] bg-primary/20 px-2 py-0.5 rounded text-primary border border-primary/30">HOST</span>
-</div>
-<div class="text-gray-400 hover:text-gray-200 pr-4 py-3 flex items-center gap-3 transition-colors hover:bg-[#1f1f1f]">
-<span class="material-symbols-outlined text-xl" data-icon="person">person</span>
-<span class="font-bold text-sm">سارة جيمر</span>
-</div>
-<div class="text-gray-400 hover:text-gray-200 pr-4 py-3 flex items-center gap-3 transition-colors hover:bg-[#1f1f1f]">
-<span class="material-symbols-outlined text-xl" data-icon="person">person</span>
-<span class="font-bold text-sm">بندر 99</span>
-</div>
-<div class="text-gray-400 hover:text-gray-200 pr-4 py-3 flex items-center gap-3 transition-colors hover:bg-[#1f1f1f]">
-<span class="material-symbols-outlined text-xl" data-icon="person">person</span>
-<span class="font-bold text-sm">خالد الحربي</span>
-</div>
-<div class="text-gray-400 hover:text-gray-200 pr-4 py-3 flex items-center gap-3 transition-colors hover:bg-[#1f1f1f]">
-<span class="material-symbols-outlined text-xl" data-icon="person">person</span>
-<span class="font-bold text-sm">العنود</span>
-</div>
-</div>
-</div>
-<div class="mt-auto px-6 space-y-4">
-<button class="w-full bg-gradient-to-br from-primary to-primary-container text-on-primary font-black py-4 rounded-lg shadow-[0_0_20px_rgba(47,248,1,0.3)] hover:shadow-[0_0_30px_rgba(47,248,1,0.5)] transition-all uppercase tracking-tighter text-sm">
-                دعوة صديق
-            </button>
-<div class="flex justify-between pt-4 border-t border-outline-variant/30">
-<button class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2 text-xs">
-<span class="material-symbols-outlined text-sm" data-icon="help">help</span> الدعم
-                </button>
-<button class="text-on-surface-variant hover:text-secondary transition-colors flex items-center gap-2 text-xs">
-<span class="material-symbols-outlined text-sm" data-icon="logout">logout</span> خروج
-                </button>
-</div>
-</div>
-</aside>
-<!-- Main Content Canvas -->
-<main class="mr-72 pt-24 px-8 pb-8 h-screen flex flex-col gap-6">
-<!-- Header Info Area -->
-<header class="flex items-end justify-between">
-<div class="space-y-2">
-<h1 class="text-5xl font-black font-headline tracking-tighter text-white uppercase italic">
-                    غرفة <span class="text-primary neon-text-primary">الديوانية</span>
-</h1>
-<div class="flex gap-4">
-<span class="bg-surface-container-high px-4 py-1 rounded-full text-xs font-bold border border-outline-variant/30 flex items-center gap-2">
-<span class="material-symbols-outlined text-xs" data-icon="public">public</span> عام
-                    </span>
-<span class="bg-surface-container-high px-4 py-1 rounded-full text-xs font-bold border border-outline-variant/30 flex items-center gap-2">
-<span class="material-symbols-outlined text-xs text-secondary" data-icon="speed">speed</span> فائق السرعة
-                    </span>
-<span class="bg-surface-container-high px-4 py-1 rounded-full text-xs font-bold border border-outline-variant/30 flex items-center gap-2">
-<span class="material-symbols-outlined text-xs text-tertiary" data-icon="tag">tag</span> #QAL_882
-                    </span>
+<div class="flex items-center gap-4">
+<button class="text-[#ababab] hover:text-[#39FF14] transition-colors duration-300 active:scale-95 duration-150">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<button class="text-[#ababab] hover:text-[#39FF14] transition-colors duration-300 active:scale-95 duration-150">
+<span class="material-symbols-outlined">settings</span>
+</button>
+<div class="w-8 h-8 rounded-full overflow-hidden border border-primary/20">
+<img alt="User Profile Avatar" class="w-full h-full object-cover" data-alt="close-up portrait of a futuristic gamer avatar with neon green cybernetic accents and dark matte helmet" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCTkcsYYewDkibiervhpEAetuBOS7M0I2JUjo-JPzx4KzUIaVnzrCZA_pz9Q7bLRZdMfkerMgzXjQeYFUjwDwjHuuPk3O4SRfegYU7jBJZuqpaApW0eL8j2MLRW9B-gKBXeVZZdHBIeFMNcDnCFKqRAyrt6FMApTaW2kBdtRY7ys6_f9DPhYQthzZ1mFUHswV0GXmBd9pTADyJ_yaKjIgPhxgnNyAlN8yqipM_xeuQyhwMToUNu5k9pqcR1_Aplz3lTTgfRMCyQf0"/>
 </div>
 </div>
 </header>
-<!-- Central Action Grid -->
-<div class="grid grid-cols-12 gap-6 flex-grow overflow-hidden">
-<!-- Room Visualization (Bento Center) -->
-<div class="col-span-8 flex flex-col gap-6 h-full">
-<div class="bg-surface-container-low rounded-xl border border-outline-variant/10 relative overflow-hidden flex-grow flex items-center justify-center group">
-<div class="absolute inset-0 opacity-20 pointer-events-none">
-<img alt="Arena Background" class="w-full h-full object-cover" data-alt="A dark cinematic interior of a futuristic esports arena with emerald green laser lights and massive screens in the background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7uclL3GQWvzKinbY-8tfaVX9D3T-kk7Im1mXSWMLx9SstTAhTPYOoo3ki8IrukGT7npwwc2i7T6QZNz2BvdMUpFQ6AmoXtkPInHNhnZzsjWlcszouHGQF8axi6ajMvejDmubhfvmjMaJORXoxguxk3nHImMUr3wiP8ai41BOd8oxBIPKetL82Y67cJmZWjNnnZCvXUrSAE1DQ6H4a_XXXHJOBcfX_6yA8aukPALao3pi8OP2XE2aUZuMYXQMTjDV7u67hEGGvnZ0"/>
+<!-- SideNavBar -->
+<aside class="hidden md:flex fixed left-0 top-16 h-[calc(100vh-64px)] w-64 z-40 bg-[#131313]/90 backdrop-blur-xl border-r border-[#39FF14]/10 flex flex-col py-8 gap-2 font-['Space_Grotesk'] font-bold shadow-[10px_0_30px_rgba(0,0,0,0.8)]">
+<div class="px-6 mb-8">
+<div class="flex items-center gap-3 p-3 rounded-xl bg-surface-container-high border border-outline-variant/10">
+<div class="w-10 h-10 rounded-lg bg-primary/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">person</span>
 </div>
-<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
-<div class="relative z-10 text-center flex flex-col items-center gap-8">
-<div class="w-32 h-32 rounded-full border-4 border-primary/20 flex items-center justify-center relative animate-pulse">
-<span class="material-symbols-outlined text-7xl text-primary neon-text-primary" data-icon="stadia_controller">stadia_controller</span>
-<div class="absolute inset-0 rounded-full border border-primary animate-ping opacity-20"></div>
-</div>
-<div class="space-y-4">
-<p class="text-on-surface-variant font-medium tracking-widest text-sm uppercase">في انتظار جميع اللاعبين...</p>
-<button class="bg-gradient-to-r from-primary to-primary-container text-on-primary px-16 py-6 rounded-lg font-black text-2xl shadow-[0_0_40px_rgba(47,248,1,0.4)] hover:scale-105 transition-transform active:scale-95 flex items-center gap-4">
-<span class="material-symbols-outlined text-3xl" data-icon="play_arrow" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
-                                بداية اللعبة
-                            </button>
+<div>
+<div class="text-xs text-on-surface-variant font-medium">OPERATOR_01</div>
+<div class="text-[10px] text-primary flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-primary shadow-[0_0_5px_#39FF14]"></span>
+                        Online
+                    </div>
 </div>
 </div>
 </div>
-<!-- Chat Area (Bottom Left Layout) -->
-<div class="h-64 bg-surface-container-lowest/50 backdrop-blur-xl rounded-xl border border-outline-variant/10 flex flex-col overflow-hidden">
-<div class="px-4 py-2 border-b border-outline-variant/10 flex items-center justify-between">
-<span class="text-[10px] font-black text-on-surface-variant uppercase tracking-widest">محادثة الغرفة</span>
-<div class="flex gap-2">
-<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
-<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<div class="flex-1 space-y-1">
+<a class="flex items-center gap-4 text-[#ababab] px-4 py-3 hover:bg-[#1f1f1f] hover:translate-x-2 transition-transform duration-200 cursor-pointer active:brightness-125" href="#">
+<span class="material-symbols-outlined">home</span> Home
+            </a>
+<a class="flex items-center gap-4 text-[#ababab] px-4 py-3 hover:bg-[#1f1f1f] hover:translate-x-2 transition-transform duration-200 cursor-pointer active:brightness-125" href="#">
+<span class="material-symbols-outlined">sports_esports</span> Lobbies
+            </a>
+<a class="flex items-center gap-4 text-[#39FF14] bg-[#39FF14]/10 border-l-4 border-[#39FF14] px-4 py-3 ml-[-1px] hover:translate-x-2 transition-transform duration-200 cursor-pointer active:brightness-125" href="#">
+<span class="material-symbols-outlined">leaderboard</span> Leaderboard
+            </a>
+<a class="flex items-center gap-4 text-[#ababab] px-4 py-3 hover:bg-[#1f1f1f] hover:translate-x-2 transition-transform duration-200 cursor-pointer active:brightness-125" href="#">
+<span class="material-symbols-outlined">shopping_cart</span> Store
+            </a>
+<a class="flex items-center gap-4 text-[#ababab] px-4 py-3 hover:bg-[#1f1f1f] hover:translate-x-2 transition-transform duration-200 cursor-pointer active:brightness-125" href="#">
+<span class="material-symbols-outlined">person</span> Profile
+            </a>
+</div>
+<div class="px-4 mb-4">
+<button class="w-full bg-gradient-to-r from-primary to-primary-container text-on-primary py-3 rounded-lg font-black uppercase tracking-widest text-sm shadow-[0_0_15px_rgba(57,255,20,0.3)] hover:brightness-110 active:scale-95 transition-all">
+                Create Room
+            </button>
+</div>
+<div class="border-t border-outline-variant/10 pt-4 mt-auto">
+<a class="flex items-center gap-4 text-[#ababab] px-4 py-3 hover:bg-[#1f1f1f] hover:translate-x-2 transition-transform duration-200 cursor-pointer active:brightness-125" href="#">
+<span class="material-symbols-outlined">help</span> Support
+            </a>
+<a class="flex items-center gap-4 text-error px-4 py-3 hover:bg-error/5 hover:translate-x-2 transition-transform duration-200 cursor-pointer active:brightness-125" href="#">
+<span class="material-symbols-outlined">logout</span> Logout
+            </a>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="pt-24 pb-24 md:pb-12 md:pl-72 px-6 min-h-screen">
+<!-- Header Section -->
+<div class="max-w-6xl mx-auto mb-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div>
+<h1 class="font-headline text-5xl md:text-7xl font-extrabold tracking-tighter uppercase mb-4 text-surface-tint neon-text-primary">Global Ranks</h1>
+<p class="text-on-surface-variant max-w-xl text-lg">The world's elite competitors battling for dominance across the Al-Qallabi universe. Your position defines your legacy.</p>
+</div>
+<div class="flex gap-2 bg-surface-container p-1 rounded-xl border border-outline-variant/20">
+<button class="px-6 py-2 rounded-lg bg-surface-container-high text-primary font-bold font-headline transition-all">Weekly</button>
+<button class="px-6 py-2 rounded-lg text-on-surface-variant hover:text-on-surface font-bold font-headline transition-all">All-Time</button>
 </div>
 </div>
-<div class="flex-grow p-4 space-y-4 overflow-y-auto font-body text-sm custom-scrollbar">
-<div class="flex gap-3">
-<span class="text-primary font-bold">بندر 99:</span>
-<span class="text-on-surface-variant">شباب جاهزين؟ الفوز لي اليوم! 🔥</span>
 </div>
-<div class="flex gap-3">
-<span class="text-tertiary font-bold">خالد الحربي:</span>
-<span class="text-on-surface-variant">تحلم يا بندر، المركز الأول محجوز 😎</span>
+<!-- Games Grid Categories -->
+<div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+<div class="bg-surface-container-high border-2 border-primary p-4 rounded-xl cursor-pointer hover:bg-surface-container-highest transition-colors relative overflow-hidden group">
+<div class="absolute -right-4 -bottom-4 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-8xl">draw</span>
 </div>
-<div class="flex gap-3">
-<span class="text-on-surface-variant italic opacity-50">نظام: انضم "سطام" إلى الغرفة.</span>
+<span class="material-symbols-outlined text-primary mb-2">draw</span>
+<h3 class="font-headline font-bold uppercase tracking-tight">Drawing</h3>
+<p class="text-[10px] text-on-surface-variant">Active Players: 12.4k</p>
 </div>
-<div class="flex gap-3">
-<span class="text-secondary font-bold">العنود:</span>
-<span class="text-on-surface-variant">من يبدأ؟ المضيف وينك؟</span>
+<div class="bg-surface-container-low border border-outline-variant/20 p-4 rounded-xl cursor-pointer hover:bg-surface-container-highest transition-colors relative overflow-hidden group">
+<div class="absolute -right-4 -bottom-4 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-8xl">keyboard</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant mb-2">keyboard</span>
+<h3 class="font-headline font-bold uppercase tracking-tight">Fast Keyboard</h3>
+<p class="text-[10px] text-on-surface-variant">Active Players: 8.9k</p>
+</div>
+<div class="bg-surface-container-low border border-outline-variant/20 p-4 rounded-xl cursor-pointer hover:bg-surface-container-highest transition-colors relative overflow-hidden group">
+<div class="absolute -right-4 -bottom-4 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-8xl">calculate</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant mb-2">calculate</span>
+<h3 class="font-headline font-bold uppercase tracking-tight">Math Blitz</h3>
+<p class="text-[10px] text-on-surface-variant">Active Players: 5.2k</p>
+</div>
+<div class="bg-surface-container-low border border-outline-variant/20 p-4 rounded-xl cursor-pointer hover:bg-surface-container-highest transition-colors relative overflow-hidden group">
+<div class="absolute -right-4 -bottom-4 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-8xl">memory</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant mb-2">memory</span>
+<h3 class="font-headline font-bold uppercase tracking-tight">Memory Tile</h3>
+<p class="text-[10px] text-on-surface-variant">Active Players: 7.1k</p>
 </div>
 </div>
-<div class="p-3 bg-surface-container-high/50 border-t border-outline-variant/10">
-<div class="relative">
-<input class="w-full bg-surface-container-lowest border-none rounded-lg pr-4 pl-12 py-3 text-sm focus:ring-1 focus:ring-primary/50 text-on-surface placeholder:text-outline transition-all" placeholder="اكتب رسالتك هنا أو ابدأ التخمين..." type="text"/>
-<button class="absolute left-2 top-1.5 p-1.5 text-primary hover:bg-primary/10 rounded-md transition-all">
-<span class="material-symbols-outlined" data-icon="send">send</span>
+<!-- Top 3 Podium (Asymmetric) -->
+<div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 items-end">
+<!-- Rank 2 -->
+<div class="order-2 md:order-1 bg-surface-container border border-outline-variant/30 p-8 rounded-2xl relative group hover:border-secondary/50 transition-all">
+<div class="absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-12 bg-surface border-4 border-secondary rounded-full flex items-center justify-center text-secondary font-black text-xl shadow-[0_0_15px_rgba(255,116,65,0.4)]">2</div>
+<div class="flex flex-col items-center">
+<div class="w-24 h-24 rounded-full border-4 border-secondary/30 p-1 mb-4 group-hover:border-secondary transition-all">
+<img alt="Rank 2 Avatar" class="w-full h-full rounded-full object-cover" data-alt="digital painting of a female cyber-warrior avatar with glowing orange visor and sleek black tech-wear" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKgGnbbCs9vVjGGJlFghslfj38JU2VYVpx0y_MJ2IpvN7GjpzwSqeMShkZnmGPkUY_u4CLyGKUyXc4w0YuKu-aoZiGpS2D9n6r2DMiB0CIm4Jzy_QjMUv7o4lYzxKKBtdhEY4LF_zdHRkYJrXW0vnlDCIza20g-fMdsiOjvmA4c_qDOa5xdZhyiD5eYnLDq6J0nnWsTWtvcTkmZUOLvR6-3QbP9rKc9YWkgTlKRxtzAvsI8D0H3fcyBoF54ShoAEwDmiP8J5BPODY"/>
+</div>
+<h4 class="font-headline font-black text-xl uppercase tracking-tighter">Cipher_Void</h4>
+<p class="text-secondary font-bold mb-4">Master Assassin</p>
+<div class="w-full h-1 bg-outline-variant/20 rounded-full mb-4 overflow-hidden">
+<div class="h-full bg-secondary w-[85%]"></div>
+</div>
+<div class="text-2xl font-black font-headline">152,430 <span class="text-xs text-on-surface-variant font-medium">PTS</span></div>
+</div>
+</div>
+<!-- Rank 1 (Hero) -->
+<div class="order-1 md:order-2 bg-surface-container-high border-2 border-primary p-10 rounded-2xl relative shadow-[0_20px_50px_rgba(57,255,20,0.1)] group hover:scale-[1.02] transition-all">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 w-16 h-16 bg-surface border-4 border-primary rounded-full flex items-center justify-center text-primary font-black text-3xl shadow-[0_0_25px_rgba(57,255,20,0.6)]">1</div>
+<div class="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent opacity-50 pointer-events-none"></div>
+<div class="flex flex-col items-center relative z-10">
+<div class="w-32 h-32 rounded-full border-4 border-primary p-1 mb-6 shadow-[0_0_30px_rgba(57,255,20,0.3)]">
+<img alt="Rank 1 Avatar" class="w-full h-full rounded-full object-cover" data-alt="epic character portrait of a divine robotic entity with glowing emerald core and polished white plating" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-CgIlbDVPYn_cXHNXFgvGm3UMJwWMGdQ5biNsI8-DiWQ7lmIWKQhacZhK0MmI9LoZSIM3m1ESZaiy6HyHXKgFfghD3Al3lWa_kWl_7YLfavguW1JB43gPWftpd8-IoiPQ0FkO9e8gJ-4oIjdIb43InyCMZgH439N8Ccmpns2gMt8oeRAUyOB-YpNgWZa6clZJ5bVMpEMrsdqr8iT09lznHnacQQ7GmQk6A24bYhmBsVN4ligvS1XWjxtn9TtsIqkXjh78N8ANlB4"/>
+</div>
+<h4 class="font-headline font-black text-3xl uppercase tracking-tighter text-surface-tint neon-text-primary">X_ZENITH</h4>
+<p class="text-primary font-bold mb-6 tracking-widest text-xs">GRAND OVERLORD</p>
+<div class="flex gap-4 mb-6">
+<div class="px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[10px] text-primary font-bold uppercase">98% Win Rate</div>
+<div class="px-3 py-1 bg-tertiary/10 border border-tertiary/20 rounded-full text-[10px] text-tertiary font-bold uppercase">Pro League</div>
+</div>
+<div class="text-4xl font-black font-headline text-on-surface">248,900 <span class="text-xs text-on-surface-variant font-medium">PTS</span></div>
+</div>
+</div>
+<!-- Rank 3 -->
+<div class="order-3 md:order-3 bg-surface-container border border-outline-variant/30 p-8 rounded-2xl relative group hover:border-tertiary/50 transition-all">
+<div class="absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-12 bg-surface border-4 border-tertiary rounded-full flex items-center justify-center text-tertiary font-black text-xl shadow-[0_0_15px_rgba(129,236,255,0.4)]">3</div>
+<div class="flex flex-col items-center">
+<div class="w-24 h-24 rounded-full border-4 border-tertiary/30 p-1 mb-4 group-hover:border-tertiary transition-all">
+<img alt="Rank 3 Avatar" class="w-full h-full rounded-full object-cover" data-alt="cyberpunk character design with glowing neon blue hair and futuristic goggles in a rain-slicked city setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDII-_Y7b3hHCQwPDfjN6rMWGXd13Yk6P4O734ajNFGUPdnax4GFWvRu806HrQ71B6SqPXISkyoQBxMnXz0ZOQfaL4s1o9QKGVd1PVvEl4ynin7rtWKWsfy5Jy9hKlwWsCZwzn0eKlmiSL0WCp7dL6BxrOrpQBNiE_KJOvcDGEQFLKbBZxG32uV0bTk5eMsRuPIJ8ywRuWv37xlCMKKd1pvBNBkkWk2uo8ijLJjs5TdI1NCPDuCN5azW9LJ_sOqEfVMHOryjpgA_vw"/>
+</div>
+<h4 class="font-headline font-black text-xl uppercase tracking-tighter">Ghost_Pxl</h4>
+<p class="text-tertiary font-bold mb-4">Elite Striker</p>
+<div class="w-full h-1 bg-outline-variant/20 rounded-full mb-4 overflow-hidden">
+<div class="h-full bg-tertiary w-[70%]"></div>
+</div>
+<div class="text-2xl font-black font-headline">124,100 <span class="text-xs text-on-surface-variant font-medium">PTS</span></div>
+</div>
+</div>
+</div>
+<!-- Main Leaderboard Table -->
+<div class="max-w-6xl mx-auto">
+<div class="bg-surface-container-low rounded-3xl overflow-hidden border border-outline-variant/10">
+<div class="grid grid-cols-12 gap-4 px-8 py-6 border-b border-outline-variant/10 text-xs font-headline font-bold uppercase tracking-widest text-on-surface-variant">
+<div class="col-span-1">Rank</div>
+<div class="col-span-5">Player</div>
+<div class="col-span-3 text-center">Avg Speed</div>
+<div class="col-span-3 text-right">Total Points</div>
+</div>
+<div class="divide-y divide-outline-variant/5">
+<!-- Table Entry 4 -->
+<div class="grid grid-cols-12 gap-4 px-8 py-5 items-center hover:bg-surface-container-high transition-all cursor-pointer group">
+<div class="col-span-1 font-headline font-black text-xl text-on-surface-variant group-hover:text-on-surface">04</div>
+<div class="col-span-5 flex items-center gap-4">
+<div class="w-12 h-12 rounded-lg overflow-hidden border border-outline-variant/20 group-hover:border-primary/50 transition-all">
+<img alt="Player Avatar" class="w-full h-full object-cover" data-alt="minimalist digital illustration of a robotic head with neon yellow glowing eyes on dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhi-sum5sYgfSIPo1DMmrVvwL5T3ezJkW8sh5Km1lyO0f9gGd930ZwVLTvtCjXYJOBwRyantJthwkB4-HwVqUy3uNcA8azoRseYCI6DN7wT1ohQzHWPwJUgjL7e8grzXRWxRh7s2DvUaE1odSl7mg450wYCTVDzCRXqLR5y3fJcKhsa8Z3VpKIxrS9uf9k1ju4uvw4WGM6b2xRUO0Kg-l_74npkjlyry6mjxOHkjyGG7hWRyOQLZ1Bsc4PgUTp39pGbr0CQJzs2Ws"/>
+</div>
+<div>
+<div class="font-headline font-bold text-on-surface">Neon_Specter</div>
+<div class="text-[10px] text-on-surface-variant uppercase">Veteran Rank</div>
+</div>
+</div>
+<div class="col-span-3 text-center">
+<div class="text-tertiary font-black font-headline">112 <span class="text-[10px] opacity-70">WPM</span></div>
+</div>
+<div class="col-span-3 text-right">
+<div class="font-headline font-black text-xl">98,450</div>
+</div>
+</div>
+<!-- Table Entry 5 (Me highlight) -->
+<div class="grid grid-cols-12 gap-4 px-8 py-5 items-center bg-primary/5 border-y border-primary/10 relative group">
+<div class="absolute left-0 top-0 w-1 h-full bg-primary"></div>
+<div class="col-span-1 font-headline font-black text-xl text-primary">05</div>
+<div class="col-span-5 flex items-center gap-4">
+<div class="w-12 h-12 rounded-lg overflow-hidden border border-primary/50 shadow-[0_0_10px_rgba(57,255,20,0.2)]">
+<img alt="Operator Status" class="w-full h-full object-cover" data-alt="close-up portrait of a futuristic gamer avatar with neon green cybernetic accents and dark matte helmet" src="https://lh3.googleusercontent.com/aida-public/AB6AXuARJV5Zd7JytqQBvfXF3lQfFItPRRaKOpXMjNSatUlQOn2ZOJaQIUer-kgVO1OLC6gs6FLKJLCvgjUabV2eSr-YTDj1gXWlAyo8QVZRMHmc5wVI7fMC1-e_8sBnewn1frKw8VYA84rnRgTdBC2xkGgrEJWwBWE6RhVXNtdUYlCfVMn8tu_8P32DTkII2UdeJfkUcpr7gi8fBhbQW1QyI-aB23vLd8PzwRHUG4zXlLY3QsMUk5yux77g2C1Jg5761HlFdLvFXwXqPC8"/>
+</div>
+<div>
+<div class="font-headline font-bold text-primary">OPERATOR_01</div>
+<div class="text-[10px] text-primary/70 uppercase">You (Active)</div>
+</div>
+</div>
+<div class="col-span-3 text-center">
+<div class="text-tertiary font-black font-headline">108 <span class="text-[10px] opacity-70">WPM</span></div>
+</div>
+<div class="col-span-3 text-right">
+<div class="font-headline font-black text-xl text-primary">94,200</div>
+</div>
+</div>
+<!-- Table Entry 6 -->
+<div class="grid grid-cols-12 gap-4 px-8 py-5 items-center hover:bg-surface-container-high transition-all cursor-pointer group">
+<div class="col-span-1 font-headline font-black text-xl text-on-surface-variant group-hover:text-on-surface">06</div>
+<div class="col-span-5 flex items-center gap-4">
+<div class="w-12 h-12 rounded-lg overflow-hidden border border-outline-variant/20">
+<img alt="Player Avatar" class="w-full h-full object-cover" data-alt="digital art of a character with mechanical glowing arm and high-tech streetwear against a dark city backdrop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPaBMVhJ_ROHQTNwsR075wIvRi1dbdkc9f74Qt5nWxtMHCV8I4UR9A6W2WsfFyEC1aIpTKh0rMKr0resFNshwK2W_oSk-MPch6rVUtjDUv90DuAkGsr2R9lLb7EepPLrM3ipDUsSm8utA0Tc3qjO4sIR8cgt83skoHxVPD9erG_SEOrM2Oi38p_wSEqGR_R8fpwsWjijBqcRxjqzQeVoui0A8WGgFQmKeSIq74gApbD02W4n6VeEg-zAyuzr404pjo6JOuwh7Tn7Q"/>
+</div>
+<div>
+<div class="font-headline font-bold text-on-surface">Vortex_One</div>
+<div class="text-[10px] text-on-surface-variant uppercase">Rookie Elite</div>
+</div>
+</div>
+<div class="col-span-3 text-center">
+<div class="text-tertiary font-black font-headline">95 <span class="text-[10px] opacity-70">WPM</span></div>
+</div>
+<div class="col-span-3 text-right">
+<div class="font-headline font-black text-xl">82,100</div>
+</div>
+</div>
+<!-- Table Entry 7 -->
+<div class="grid grid-cols-12 gap-4 px-8 py-5 items-center hover:bg-surface-container-high transition-all cursor-pointer group">
+<div class="col-span-1 font-headline font-black text-xl text-on-surface-variant group-hover:text-on-surface">07</div>
+<div class="col-span-5 flex items-center gap-4">
+<div class="w-12 h-12 rounded-lg overflow-hidden border border-outline-variant/20">
+<img alt="Player Avatar" class="w-full h-full object-cover" data-alt="profile shot of a futuristic pilot avatar with reflective chrome visor and subtle neon green light glow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4YBJzxHlmUbl-OOvjC4mwHv8JWa9vpAIhXCYvz2Xw_VoOcecj6zA9PXXW-s8GKKAKJGwPmmkGnFrdblI1zrLcKvZVLdZR5pmR_2TYwsZBvHC83BRFUvJjuWplpOE3wy5GbASeQHvFPUDDR2X2aiVQ77UQCUTrEg0ODrSxG3hY2EscsX3zqx8ES6m6yr7hEuKY7oOD2vhrCNKyeseWm_rpvKwR1uC9y1_11Hhvc92zJnZGItwulxdmZtaZNYL2X_f-rZUe7X94vEU"/>
+</div>
+<div>
+<div class="font-headline font-bold text-on-surface">Pixel_Hunter</div>
+<div class="text-[10px] text-on-surface-variant uppercase">Elite Ranger</div>
+</div>
+</div>
+<div class="col-span-3 text-center">
+<div class="text-tertiary font-black font-headline">92 <span class="text-[10px] opacity-70">WPM</span></div>
+</div>
+<div class="col-span-3 text-right">
+<div class="font-headline font-black text-xl">79,340</div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container p-6 text-center border-t border-outline-variant/10">
+<button class="text-primary font-headline font-bold uppercase tracking-widest text-sm hover:underline flex items-center justify-center gap-2 mx-auto">
+                        View Full Rankings
+                        <span class="material-symbols-outlined text-sm">keyboard_arrow_down</span>
 </button>
-</div>
-</div>
-</div>
-</div>
-<!-- Rules & Stats (Bento Right) -->
-<div class="col-span-4 flex flex-col gap-6">
-<!-- Game Settings Card -->
-<div class="bg-surface-container-high rounded-xl p-6 border border-outline-variant/10 space-y-6">
-<h3 class="text-xs font-black tracking-widest text-primary uppercase">إعدادات الجولة</h3>
-<div class="space-y-4">
-<div class="flex items-center justify-between group">
-<div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors" data-icon="timer">timer</span>
-<span class="text-sm font-bold">وقت التخمين</span>
-</div>
-<span class="text-sm text-on-surface-variant">60 ثانية</span>
-</div>
-<div class="flex items-center justify-between group">
-<div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-on-surface-variant group-hover:text-secondary transition-colors" data-icon="layers">layers</span>
-<span class="text-sm font-bold">عدد الجولات</span>
-</div>
-<span class="text-sm text-on-surface-variant">5 جولات</span>
-</div>
-<div class="flex items-center justify-between group">
-<div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-on-surface-variant group-hover:text-tertiary transition-colors" data-icon="category">category</span>
-<span class="text-sm font-bold">الفئات</span>
-</div>
-<span class="text-sm text-on-surface-variant">أمثال، أفلام</span>
-</div>
-</div>
-</div>
-<!-- Live Feed / Activity -->
-<div class="bg-surface-container-high rounded-xl border border-outline-variant/10 overflow-hidden flex-grow flex flex-col">
-<div class="px-6 py-4 border-b border-outline-variant/10">
-<h3 class="text-xs font-black tracking-widest text-secondary uppercase">آخر النشاطات</h3>
-</div>
-<div class="p-6 space-y-6">
-<div class="flex items-start gap-4">
-<div class="w-8 h-8 rounded-full bg-secondary/10 flex items-center justify-center text-secondary border border-secondary/20">
-<span class="material-symbols-outlined text-lg" data-icon="bolt">bolt</span>
-</div>
-<div>
-<p class="text-xs text-on-surface font-bold">سطام انضم للتو</p>
-<p class="text-[10px] text-on-surface-variant">منذ ثانيتين</p>
-</div>
-</div>
-<div class="flex items-start gap-4">
-<div class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary border border-primary/20">
-<span class="material-symbols-outlined text-lg" data-icon="trophy">trophy</span>
-</div>
-<div>
-<p class="text-xs text-on-surface font-bold">خالد حقق لقب "ملك التخمين"</p>
-<p class="text-[10px] text-on-surface-variant">منذ دقيقة</p>
-</div>
-</div>
-</div>
 </div>
 </div>
 </div>
 </main>
-<!-- Navigation Shell for Mobile (Hidden on Desktop) -->
-<div class="md:hidden fixed bottom-0 left-0 w-full bg-[#131313] px-6 py-4 flex justify-between items-center z-50 border-t border-primary/10">
-<button class="text-[#39FF14] flex flex-col items-center gap-1">
-<span class="material-symbols-outlined" data-icon="grid_view" style="font-variation-settings: 'FILL' 1;">grid_view</span>
-<span class="text-[10px] font-bold">Home</span>
-</button>
-<button class="text-gray-500 flex flex-col items-center gap-1">
-<span class="material-symbols-outlined" data-icon="swords">swords</span>
-<span class="text-[10px] font-bold">Lobbies</span>
-</button>
-<button class="text-gray-500 flex flex-col items-center gap-1">
-<span class="material-symbols-outlined" data-icon="trophy">trophy</span>
-<span class="text-[10px] font-bold">Stats</span>
-</button>
-<button class="text-gray-500 flex flex-col items-center gap-1">
-<span class="material-symbols-outlined" data-icon="person">person</span>
-<span class="text-[10px] font-bold">Profile</span>
-</button>
-</div>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full h-20 bg-[#131313] border-t border-[#39FF14]/20 flex justify-around items-center px-4 rounded-t-2xl md:hidden z-50 shadow-[0_-4px_20px_rgba(57,255,20,0.15)]">
+<a class="flex flex-col items-center justify-center text-[#ababab] transition-all duration-300 ease-out active:text-[#39FF14]" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="font-['Space_Grotesk'] text-[10px] uppercase font-bold mt-1">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#ababab] transition-all duration-300 ease-out active:text-[#39FF14]" href="#">
+<span class="material-symbols-outlined">grid_view</span>
+<span class="font-['Space_Grotesk'] text-[10px] uppercase font-bold mt-1">Lobbies</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#39FF14] scale-110 drop-shadow-[0_0_5px_rgba(57,255,20,0.8)] transition-all duration-300 ease-out active:text-[#39FF14]" href="#">
+<span class="material-symbols-outlined">emoji_events</span>
+<span class="font-['Space_Grotesk'] text-[10px] uppercase font-bold mt-1">Rank</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#ababab] transition-all duration-300 ease-out active:text-[#39FF14]" href="#">
+<span class="material-symbols-outlined">storefront</span>
+<span class="font-['Space_Grotesk'] text-[10px] uppercase font-bold mt-1">Shop</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#ababab] transition-all duration-300 ease-out active:text-[#39FF14]" href="#">
+<span class="material-symbols-outlined">account_circle</span>
+<span class="font-['Space_Grotesk'] text-[10px] uppercase font-bold mt-1">User</span>
+</a>
+</nav>
 </body></html>
