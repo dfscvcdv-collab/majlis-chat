@@ -1,0 +1,5 @@
+"main": "api/index.ts",
+"scripts": {
+  "start": "node api/index.ts",
+  "build": "vite build"
+}
