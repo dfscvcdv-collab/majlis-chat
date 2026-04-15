@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<html class="dark" dir="rtl" lang="ar"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&amp;family=Tajawal:wght@300;400;500;700;800;900&amp;family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-tint": "#8eff71",
+                    "inverse-surface": "#f9f9f9",
+                    "outline-variant": "#484848",
+                    "error-container": "#b92902",
+                    "inverse-on-surface": "#555555",
+                    "outline": "#757575",
+                    "secondary": "#ff7441",
+                    "primary-container": "#2ff801",
+                    "on-primary-fixed": "#064200",
+                    "on-background": "#ffffff",
+                    "on-primary-container": "#0b5800",
+                    "secondary-container": "#ab3600",
+                    "surface-dim": "#0e0e0e",
+                    "on-error-container": "#ffd2c8",
+                    "surface-variant": "#262626",
+                    "on-error": "#450900",
+                    "tertiary": "#81ecff",
+                    "tertiary-fixed": "#00e3fd",
+                    "on-secondary-fixed": "#631b00",
+                    "on-primary-fixed-variant": "#0d6200",
+                    "surface-container-high": "#1f1f1f",
+                    "tertiary-fixed-dim": "#00d4ec",
+                    "on-surface": "#ffffff",
+                    "primary-fixed": "#2ff801",
+                    "error-dim": "#d53d18",
+                    "surface-bright": "#2c2c2c",
+                    "on-primary": "#0d6100",
+                    "on-secondary-container": "#fff6f3",
+                    "inverse-primary": "#106f00",
+                    "tertiary-container": "#00e3fd",
+                    "error": "#ff7351",
+                    "secondary-fixed-dim": "#ffb197",
+                    "background": "#0e0e0e",
+                    "on-secondary-fixed-variant": "#932d00",
+                    "surface-container-lowest": "#000000",
+                    "on-surface-variant": "#ababab",
+                    "surface": "#0e0e0e",
+                    "on-tertiary-container": "#004d57",
+                    "surface-container": "#191919",
+                    "secondary-fixed": "#ffc4b1",
+                    "primary": "#8eff71",
+                    "secondary-dim": "#ff7441",
+                    "on-tertiary-fixed-variant": "#005762",
+                    "on-secondary": "#410f00",
+                    "tertiary-dim": "#00d4ec",
+                    "primary-fixed-dim": "#2be800",
+                    "primary-dim": "#2be800",
+                    "surface-container-low": "#131313",
+                    "on-tertiary-fixed": "#003840",
+                    "on-tertiary": "#005762",
+                    "surface-container-highest": "#262626"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Space Grotesk", "Tajawal"],
+                    "body": ["Manrope", "Tajawal"],
+                    "label": ["Space Grotesk", "Tajawal"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Manrope', 'Tajawal', sans-serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .neon-glow-primary { box-shadow: 0 0 15px rgba(57, 255, 20, 0.4); }
+        .neon-glow-secondary { box-shadow: 0 0 15px rgba(255, 116, 65, 0.4); }
+        .text-glow-primary { text-shadow: 0 0 8px rgba(57, 255, 20, 0.6); }
+        .kinetic-bg { background: radial-gradient(circle at 50% 50%, #1a1a1a 0%, #0e0e0e 100%); }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen selection:bg-primary selection:text-on-primary">
+<!-- Top Navigation Bar -->
+<nav class="flex justify-between items-center w-full px-6 py-4 fixed top-0 z-50 bg-[#0e0e0e]">
+<div class="flex items-center gap-4">
+<span class="font-space-grotesk tracking-tighter uppercase text-2xl font-black italic text-[#39FF14] drop-shadow-[0_0_8px_rgba(57,255,20,0.6)]">AL-QALLABI</span>
+</div>
+<div class="hidden md:flex gap-8 items-center font-space-grotesk tracking-tighter uppercase">
+<a class="text-[#39FF14] border-b-2 border-[#39FF14] hover:text-[#39FF14] hover:drop-shadow-[0_0_5px_#39FF14] transition-all scale-95 active:duration-75" href="#">Home</a>
+<a class="text-gray-500 hover:text-[#39FF14] hover:drop-shadow-[0_0_5px_#39FF14] transition-all scale-95 active:duration-75" href="#">Lobbies</a>
+<a class="text-gray-500 hover:text-[#39FF14] hover:drop-shadow-[0_0_5px_#39FF14] transition-all scale-95 active:duration-75" href="#">Leaderboard</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-gray-500 hover:text-[#39FF14] transition-all">settings</button>
+<button class="material-symbols-outlined text-gray-500 hover:text-[#39FF14] transition-all">account_circle</button>
+</div>
+<div class="bg-gradient-to-r from-transparent via-[#39FF14]/20 to-transparent h-[1px] w-full absolute bottom-0"></div>
+</nav>
+<!-- Side Navigation Bar (Hidden on Mobile) -->
+<aside class="hidden lg:flex fixed left-0 top-0 h-full pt-24 pb-6 flex-col z-40 bg-[#131313]/90 backdrop-blur-xl w-64 shadow-[10px_0_30px_rgba(0,0,0,0.5)] border-r border-[#39FF14]/10">
+<div class="px-6 mb-8">
+<p class="font-space-grotesk text-xs tracking-widest text-[#39FF14] font-black uppercase opacity-60">OPERATOR</p>
+<div class="flex items-center gap-2 mt-1">
+<div class="w-2 h-2 rounded-full bg-primary animate-pulse"></div>
+<p class="font-space-grotesk text-sm font-bold text-on-surface">ONLINE</p>
+</div>
+</div>
+<nav class="flex-1 flex flex-col font-space-grotesk text-sm font-bold">
+<a class="text-[#39FF14] bg-[#39FF14]/5 border-r-4 border-[#39FF14] pl-4 py-4 flex items-center gap-4 translate-x-1 duration-200" href="#">
+<span class="material-symbols-outlined">grid_view</span>
+<span>Home</span>
+</a>
+<a class="text-gray-400 hover:text-gray-200 hover:bg-[#1f1f1f] pl-4 py-4 flex items-center gap-4 transition-colors" href="#">
+<span class="material-symbols-outlined">swords</span>
+<span>Lobbies</span>
+</a>
+<a class="text-gray-400 hover:text-gray-200 hover:bg-[#1f1f1f] pl-4 py-4 flex items-center gap-4 transition-colors" href="#">
+<span class="material-symbols-outlined">trophy</span>
+<span>Leaderboard</span>
+</a>
+<a class="text-gray-400 hover:text-gray-200 hover:bg-[#1f1f1f] pl-4 py-4 flex items-center gap-4 transition-colors" href="#">
+<span class="material-symbols-outlined">person</span>
+<span>Profile</span>
+</a>
+</nav>
+<div class="px-6 mt-auto">
+<button class="w-full bg-gradient-to-r from-primary to-primary-container text-on-primary font-black py-3 rounded-lg flex items-center justify-center gap-2 neon-glow-primary hover:scale-105 transition-transform">
+<span class="material-symbols-outlined">add_circle</span>
+                CREATE ROOM
+            </button>
+<div class="mt-8 flex flex-col gap-2 font-space-grotesk text-sm">
+<a class="text-gray-500 hover:text-on-surface flex items-center gap-3 py-2" href="#">
+<span class="material-symbols-outlined text-sm">help</span> Support
+                </a>
+<a class="text-error hover:text-error-dim flex items-center gap-3 py-2" href="#">
+<span class="material-symbols-outlined text-sm">logout</span> Logout
+                </a>
+</div>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="lg:pr-0 lg:pl-0 min-h-screen flex flex-col items-center justify-center relative overflow-hidden kinetic-bg px-6">
+<!-- Background Elements -->
+<div class="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+<div class="absolute -top-[20%] -right-[10%] w-[600px] h-[600px] bg-primary/10 rounded-full blur-[120px]"></div>
+<div class="absolute -bottom-[10%] -left-[5%] w-[400px] h-[400px] bg-secondary/10 rounded-full blur-[100px]"></div>
+<img class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-10 w-full max-w-6xl grayscale mix-blend-screen" data-alt="abstract tech geometric patterns with neon circuit lines and futuristic gaming HUD elements on dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_x-O-EFcueDVyaXb8hHdzYAlhE-0nXkGzjzUfdf11v2enyE_CKdVagel3pvjHL4EOp4u7IL4Yz1ZSYxbBBKSqseRT6__6bZX_CydcwaKiMXXm2XiPRrqKyUsLcgzFpIhBiqumGDvwVyliTdGe8xKXIu8fYLktuJ68XuMKvGXQCtccg_Lhkon4BFKvMMyxng4JvcxFZSbmgLPwQ0Omx07MVevEOod5e8Z_x7GCwra9cQ5QdtGOLIMtFhcZzvStB4k2Y-mbzfHPwnA"/>
+</div>
+<!-- Center Interactive Zone -->
+<div class="z-10 w-full max-w-2xl flex flex-col items-center gap-12">
+<!-- Branding Header -->
+<div class="text-center">
+<h1 class="font-headline text-7xl md:text-8xl font-black text-on-surface tracking-tighter mb-4 text-glow-primary">
+                    الـقـلابـي
+                </h1>
+<p class="font-body text-xl text-on-surface-variant font-medium tracking-wide">
+                    تحدَّ أصدقاءك في ساحة المعركة الرقمية
+                </p>
+</div>
+<!-- Input Section -->
+<div class="w-full space-y-6">
+<div class="relative group">
+<input class="w-full bg-surface-container-lowest border-2 border-outline-variant/30 text-on-surface text-2xl font-bold py-6 px-8 rounded-xl focus:border-primary focus:ring-0 focus:outline-none transition-all duration-300 text-center placeholder:text-on-surface-variant/40 group-hover:border-primary/50 neon-glow-primary" placeholder="أدخل اسمك" type="text"/>
+<div class="absolute inset-x-0 -bottom-1 h-1 bg-gradient-to-r from-transparent via-primary to-transparent opacity-0 group-focus-within:opacity-100 transition-opacity"></div>
+</div>
+</div>
+<!-- Action Buttons Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+<!-- Create Room -->
+<button class="relative overflow-hidden group flex flex-col items-center justify-center gap-4 py-10 px-8 rounded-xl bg-surface-container-high border-2 border-primary/20 hover:border-primary transition-all duration-300 neon-glow-primary">
+<div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<span class="material-symbols-outlined text-5xl text-primary" data-weight="fill">add_box</span>
+<span class="font-headline text-3xl font-black text-primary">إنشاء غرفة</span>
+<p class="text-on-surface-variant text-sm font-medium">ابدأ تحدياً جديداً الآن</p>
+</button>
+<!-- Join Room -->
+<button class="relative overflow-hidden group flex flex-col items-center justify-center gap-4 py-10 px-8 rounded-xl bg-surface-container-high border-2 border-secondary/20 hover:border-secondary transition-all duration-300 neon-glow-secondary">
+<div class="absolute inset-0 bg-gradient-to-br from-secondary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<span class="material-symbols-outlined text-5xl text-secondary" data-weight="fill">login</span>
+<span class="font-headline text-3xl font-black text-secondary">دخول لغرفة</span>
+<p class="text-on-surface-variant text-sm font-medium">انضم إلى رفاقك في اللعب</p>
+</button>
+</div>
+<!-- Stats Bar -->
+<div class="flex flex-wrap justify-center gap-8 text-on-surface-variant font-space-grotesk text-sm uppercase tracking-widest bg-surface-container-low/50 backdrop-blur-md px-8 py-4 rounded-full border border-outline-variant/10">
+<div class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<span>1,240 ONLINE NOW</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>45 LIVE LOBBIES</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+<span>PING: 14MS</span>
+</div>
+</div>
+</div>
+</main>
+<!-- Bottom Nav for Mobile -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full z-50 bg-[#0e0e0e]/95 backdrop-blur-xl border-t border-outline-variant/10">
+<div class="flex justify-around items-center py-4">
+<a class="flex flex-col items-center gap-1 text-[#39FF14]" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">grid_view</span>
+<span class="text-[10px] font-bold uppercase font-space-grotesk">Home</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-gray-500" href="#">
+<span class="material-symbols-outlined">swords</span>
+<span class="text-[10px] font-bold uppercase font-space-grotesk">Lobbies</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-gray-500" href="#">
+<span class="material-symbols-outlined">trophy</span>
+<span class="text-[10px] font-bold uppercase font-space-grotesk">Leaderboard</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-gray-500" href="#">
+<span class="material-symbols-outlined">person</span>
+<span class="text-[10px] font-bold uppercase font-space-grotesk">Profile</span>
+</a>
+</div>
+</nav>
+</body></html>

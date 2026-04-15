@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html class="dark" dir="rtl" lang="ar"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AL-QALLABI | Artist View</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&amp;family=Manrope:wght@200;300;400;500;600;700;800&amp;family=Tajawal:wght@200;300;400;500;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-tint": "#8eff71",
+                    "inverse-surface": "#f9f9f9",
+                    "outline-variant": "#484848",
+                    "error-container": "#b92902",
+                    "inverse-on-surface": "#555555",
+                    "outline": "#757575",
+                    "secondary": "#ff7441",
+                    "primary-container": "#2ff801",
+                    "on-primary-fixed": "#064200",
+                    "on-background": "#ffffff",
+                    "on-primary-container": "#0b5800",
+                    "secondary-container": "#ab3600",
+                    "surface-dim": "#0e0e0e",
+                    "on-error-container": "#ffd2c8",
+                    "surface-variant": "#262626",
+                    "on-error": "#450900",
+                    "tertiary": "#81ecff",
+                    "tertiary-fixed": "#00e3fd",
+                    "on-secondary-fixed": "#631b00",
+                    "on-primary-fixed-variant": "#0d6200",
+                    "surface-container-high": "#1f1f1f",
+                    "tertiary-fixed-dim": "#00d4ec",
+                    "on-surface": "#ffffff",
+                    "primary-fixed": "#2ff801",
+                    "error-dim": "#d53d18",
+                    "surface-bright": "#2c2c2c",
+                    "on-primary": "#0d6100",
+                    "on-secondary-container": "#fff6f3",
+                    "inverse-primary": "#106f00",
+                    "tertiary-container": "#00e3fd",
+                    "error": "#ff7351",
+                    "secondary-fixed-dim": "#ffb197",
+                    "background": "#0e0e0e",
+                    "on-secondary-fixed-variant": "#932d00",
+                    "surface-container-lowest": "#000000",
+                    "on-surface-variant": "#ababab",
+                    "surface": "#0e0e0e",
+                    "on-tertiary-container": "#004d57",
+                    "surface-container": "#191919",
+                    "secondary-fixed": "#ffc4b1",
+                    "primary": "#8eff71",
+                    "secondary-dim": "#ff7441",
+                    "on-tertiary-fixed-variant": "#005762",
+                    "on-secondary": "#410f00",
+                    "tertiary-dim": "#00d4ec",
+                    "primary-fixed-dim": "#2be800",
+                    "primary-dim": "#2be800",
+                    "surface-container-low": "#131313",
+                    "on-tertiary-fixed": "#003840",
+                    "on-tertiary": "#005762",
+                    "surface-container-highest": "#262626"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Space Grotesk", "Tajawal"],
+                    "body": ["Manrope", "Tajawal"],
+                    "label": ["Space Grotesk", "Tajawal"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Manrope', 'Tajawal', sans-serif; }
+        .canvas-shadow { box-shadow: 0 0 40px rgba(57, 255, 20, 0.1); }
+        .neon-glow { text-shadow: 0 0 8px rgba(57, 255, 20, 0.6); }
+        .glass-panel { background: rgba(31, 31, 31, 0.6); backdrop-filter: blur(20px); }
+    </style>
+</head>
+<body class="bg-background text-on-background overflow-hidden">
+<!-- TopNavBar (Shared Component Context) -->
+<header class="flex justify-between items-center w-full px-6 py-4 fixed top-0 z-50 bg-[#0e0e0e]">
+<div class="flex items-center gap-6">
+<h1 class="font-space-grotesk tracking-tighter uppercase text-2xl font-black italic text-[#39FF14] drop-shadow-[0_0_8px_rgba(57,255,20,0.6)]">AL-QALLABI</h1>
+<div class="hidden md:flex gap-8">
+<a class="font-space-grotesk tracking-tighter uppercase text-sm font-bold text-gray-500 hover:text-[#39FF14] hover:drop-shadow-[0_0_5px_#39FF14] transition-all" href="#">Home</a>
+<a class="font-space-grotesk tracking-tighter uppercase text-sm font-bold text-[#39FF14] border-b-2 border-[#39FF14]" href="#">Lobbies</a>
+<a class="font-space-grotesk tracking-tighter uppercase text-sm font-bold text-gray-500 hover:text-[#39FF14] hover:drop-shadow-[0_0_5px_#39FF14] transition-all" href="#">Leaderboard</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="flex items-center bg-surface-container-high px-4 py-2 rounded-lg gap-3 border border-primary/20">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">timer</span>
+<span class="font-headline font-black text-xl text-primary neon-glow">00:45</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-on-surface-variant">settings</span>
+<span class="material-symbols-outlined text-on-surface-variant">account_circle</span>
+</div>
+</div>
+<div class="bg-gradient-to-r from-transparent via-[#39FF14]/20 to-transparent h-[1px] w-full absolute bottom-0"></div>
+</header>
+<!-- SideNavBar (Shared Component Context - Operator Navigation) -->
+<aside class="fixed right-0 top-0 h-full pt-24 pb-6 flex flex-col z-40 bg-[#131313]/90 backdrop-blur-xl shadow-[10px_0_30px_rgba(0,0,0,0.5)] w-72 border-l border-primary/10">
+<div class="px-6 mb-6">
+<p class="font-space-grotesk text-xs font-black text-primary/50 tracking-widest">OPERATOR</p>
+<p class="font-headline text-lg font-bold text-primary">المتسابقون</p>
+</div>
+<div class="flex-1 space-y-2 overflow-y-auto px-2">
+<!-- Player List -->
+<div class="bg-primary/5 border-r-4 border-primary pl-4 py-3 flex items-center justify-between group transition-all duration-200 translate-x-1">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg overflow-hidden border border-primary/30">
+<img alt="Player" class="w-full h-full object-cover" data-alt="minimalist stylized avatar of a young man with cool gamer headset and neon lighting accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAd0q8iODIfxGyHP-gRHcEWwCRoBN4BuRjWNXUJIbNgMkmnIL5j1hNZzA2TXLLnv1arTaoN-9tzM4FwbpwGYuAEeWV6n9HLIFoAOBoW0lBUT3WLpf7VjgkO7uEm7k4nHim0AGKMoak20lc-XVH3v8hrEY6-DjZuKuhWGvPmfuM10i_ZqWevx62dIvYg8vInNdQL812Eso77YwoTeq7Tb0AsFrEjhmPBSJKG3RtvIv3GPWkyYYD5q0BKQV1iGBj9ZHsRoUodXiX0ve0"/>
+</div>
+<div>
+<p class="font-headline text-sm font-bold text-primary">أنت (الرسام)</p>
+<p class="text-[10px] text-primary-container">1,240 نقطة</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary text-sm" style="font-variation-settings: 'FILL' 1;">brush</span>
+</div>
+<div class="text-gray-400 hover:text-gray-200 hover:bg-surface-container-high pl-4 py-3 flex items-center justify-between rounded-l-lg transition-colors mr-2">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg overflow-hidden border border-outline/20">
+<img alt="Player" class="w-full h-full object-cover" data-alt="minimalist stylized avatar profile of a person with colorful hair and futuristic goggles" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPNDhHvdUDiUf6hTR2kkvZUQsIEvMtuSmt5hNBcwNTVOzpNB_EW75yL9r5vWXrAelzFsrMbwx5zv4tuhizyC4R5oWkEjMEr_NMb1IO8jdYdcOyXgHfWmnjhG7HggtkAAtwfi96k41HBTxbr9TFKre5B8ULe2R4QeKTsVMZUIoB9j_9ktBHG2m0_Febjb5PnNwQV2e3lSFp1te4qZ4sBxFk9cgPz7Zh5ZXdIbbLcEIzMYVLyxnz1XBU4qRaynwewCRAPPZk2jIAL-4"/>
+</div>
+<div>
+<p class="font-headline text-sm font-bold">لاعب_مجهول</p>
+<p class="text-[10px] text-on-surface-variant">850 نقطة</p>
+</div>
+</div>
+</div>
+<div class="text-gray-400 hover:text-gray-200 hover:bg-surface-container-high pl-4 py-3 flex items-center justify-between rounded-l-lg transition-colors mr-2">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg overflow-hidden border border-outline/20">
+<img alt="Player" class="w-full h-full object-cover" data-alt="creative digital avatar of a girl with neon blue hair and tech accessories" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvnZcnZC5v9tyZan6TPPXx4XpdXk-HPoaQixEssarViqXyRZSv3_7FwCTViT5WEGFWgv-bzi_kyFqP8ZCij1WyTaE9d9nNH4-aXjiFeVTEK3ZX0JvD9nWb7L-QQnzCjjJghLW3nUH4MhoexGf_cn0rIHlfntWB64d0ca_Qcg5vfM1CO29jroO0Z9s_UE2jLCtxbjxNJD8_iCtNbKIxQzDj0hZG6JkY7FvIiv6Vz3etX1wgE2MdL43leDZzOtcwailTLqzcvJd9KLQ"/>
+</div>
+<div>
+<p class="font-headline text-sm font-bold">سلطان_الرسم</p>
+<p class="text-[10px] text-on-surface-variant">720 نقطة</p>
+</div>
+</div>
+</div>
+<div class="text-gray-400 hover:text-gray-200 hover:bg-surface-container-high pl-4 py-3 flex items-center justify-between rounded-l-lg transition-colors mr-2">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg overflow-hidden border border-outline/20">
+<img alt="Player" class="w-full h-full object-cover" data-alt="minimalist gaming avatar with a digital mask and green neon highlights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjZToPDmr2rtbAV2ONba04EbKtb8OuuqHWJlnDM9mQ2IgExG4KFfuP42EXf0TvejXvxUmL7Sb7bKVbL5TzG-QAvCL9YmWn8oFctlQc6vB2MSpYphjw98Y7FpOkuslFyyI16W-eaakLZBtN53SmwoGMLS0aMoL0P58F2qSiBslebA_8LuQQFJOT7b95BjX8Ad15KLP7LeHBwOBjJB8V0cHklChTw1fsApO4RfEaqusu2QYQ-hW44QLBq_rESKB7hDGJJQNlVA0J3-c"/>
+</div>
+<div>
+<p class="font-headline text-sm font-bold">زائر_الفضاء</p>
+<p class="text-[10px] text-on-surface-variant">400 نقطة</p>
+</div>
+</div>
+</div>
+</div>
+<div class="px-6 mt-auto">
+<button class="w-full bg-primary/10 border border-primary/30 text-primary py-3 rounded-lg font-headline font-bold text-xs hover:bg-primary/20 transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-sm">help</span>
+                الدعم الفني
+            </button>
+</div>
+</aside>
+<!-- Main Content Canvas Area -->
+<main class="mr-72 mt-20 p-8 h-[calc(100vh-80px)] flex flex-col gap-6">
+<!-- Game Stats & Word Hint -->
+<div class="flex justify-center items-center">
+<div class="glass-panel px-12 py-3 rounded-xl border border-primary/20 flex flex-col items-center">
+<p class="text-xs text-on-surface-variant mb-1 font-bold">الكلمة المطلوب رسمها:</p>
+<p class="font-headline text-3xl font-black text-primary tracking-[0.5em] neon-glow">سـ _ _ _ _ ة</p>
+</div>
+</div>
+<div class="flex-1 flex gap-6 relative">
+<!-- Left Toolbar: Drawing Tools -->
+<div class="w-20 glass-panel border border-primary/10 rounded-2xl flex flex-col items-center py-6 gap-4 self-center shadow-[0_0_30px_rgba(0,0,0,0.4)]">
+<button class="w-12 h-12 rounded-xl bg-primary text-on-primary flex items-center justify-center shadow-[0_0_15px_#39FF14] transition-transform active:scale-90">
+<span class="material-symbols-outlined">brush</span>
+</button>
+<button class="w-12 h-12 rounded-xl bg-surface-container-high text-on-surface-variant flex items-center justify-center hover:bg-surface-bright transition-colors">
+<span class="material-symbols-outlined">ink_eraser</span>
+</button>
+<button class="w-12 h-12 rounded-xl bg-surface-container-high text-on-surface-variant flex items-center justify-center hover:bg-surface-bright transition-colors">
+<span class="material-symbols-outlined">format_color_fill</span>
+</button>
+<div class="h-[1px] w-8 bg-outline-variant my-2"></div>
+<!-- Color Palette -->
+<div class="grid grid-cols-1 gap-3">
+<div class="w-6 h-6 rounded-full bg-primary ring-2 ring-white ring-offset-2 ring-offset-background cursor-pointer"></div>
+<div class="w-6 h-6 rounded-full bg-secondary cursor-pointer"></div>
+<div class="w-6 h-6 rounded-full bg-tertiary cursor-pointer"></div>
+<div class="w-6 h-6 rounded-full bg-error cursor-pointer"></div>
+<div class="w-6 h-6 rounded-full bg-white cursor-pointer"></div>
+<div class="w-6 h-6 rounded-full bg-black border border-outline-variant cursor-pointer"></div>
+</div>
+<div class="mt-auto flex flex-col gap-3">
+<button class="w-12 h-12 rounded-xl bg-surface-container-high text-on-surface-variant flex items-center justify-center hover:bg-surface-bright">
+<span class="material-symbols-outlined">undo</span>
+</button>
+<button class="w-12 h-12 rounded-xl bg-surface-container-high text-on-surface-variant flex items-center justify-center hover:bg-surface-bright">
+<span class="material-symbols-outlined">delete</span>
+</button>
+</div>
+</div>
+<!-- Central Canvas -->
+<div class="flex-1 bg-white rounded-[2rem] canvas-shadow border-4 border-surface-container-high relative cursor-crosshair overflow-hidden">
+<!-- Decorative Sketchy Image representing the drawing in progress -->
+<img class="absolute inset-0 w-full h-full object-cover opacity-10 pointer-events-none" data-alt="artistic messy paint strokes and abstract scribbles on a clean white background representing a digital drawing in progress" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBB6sRhSEzXxI72Rsl1eC1nJaE6x8CSVt4lZJF4fkO1vXx_6F8bochScUaNasggjPZcaYPJ60fGVWVEK1TeDlsVz8Yare4mkGkjVKXY5yB5pehJkGJCvGOkWCiTdO0L1J_IeHXntcwCkVu_HvQIsh5HOVq2zzkvas1ndsGH-GflyC9n_gngcRcgBPYNOK6WN8UkyQMf9hk1z8tvBJ0qS4mEXsgpmznBGCV71U1HQoP-_-f6kpDars0SOkA_eq5OMXYUSxjLlErukP8"/>
+<!-- Tool Cursor Preview (Visual Polish) -->
+<div class="absolute top-1/2 left-1/3 w-2 h-2 rounded-full bg-primary ring-4 ring-primary/20"></div>
+<div class="absolute top-1/2 left-1/3 w-px h-24 bg-primary/10 rotate-12 origin-top -mt-24 ml-1"></div>
+</div>
+<!-- Bottom Chat Panel (Floating on top of content) -->
+<div class="absolute bottom-4 left-24 right-4 h-48 flex flex-col pointer-events-none">
+<div class="flex-1 overflow-y-auto space-y-2 mb-3 pointer-events-auto pr-4">
+<div class="flex items-center gap-2">
+<span class="text-secondary font-bold text-xs">سلطان_الرسم:</span>
+<span class="bg-surface-container/80 px-3 py-1 rounded-full text-xs text-on-surface backdrop-blur-sm">سيارة؟</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="text-tertiary font-bold text-xs">لاعب_مجهول:</span>
+<span class="bg-surface-container/80 px-3 py-1 rounded-full text-xs text-on-surface backdrop-blur-sm">سفينة فضاء</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="text-primary font-bold text-xs">النظام:</span>
+<span class="bg-primary-container/20 px-3 py-1 rounded-full text-xs text-primary font-bold backdrop-blur-sm">أحمد خمن الكلمة بشكل صحيح! 🎉</span>
+</div>
+</div>
+<div class="flex gap-2 pointer-events-auto">
+<div class="flex-1 relative">
+<input class="w-full bg-surface-container-lowest/80 border border-outline-variant/30 rounded-xl px-6 py-4 text-on-surface focus:ring-2 focus:ring-primary focus:border-transparent backdrop-blur-xl transition-all placeholder:text-on-surface-variant/50 font-body text-sm" placeholder="اكتب تخمينك هنا..." type="text"/>
+<div class="absolute left-4 top-1/2 -translate-y-1/2 flex gap-2">
+<span class="material-symbols-outlined text-primary-container cursor-pointer">sentiment_satisfied</span>
+</div>
+</div>
+<button class="bg-primary text-on-primary px-8 rounded-xl font-headline font-black hover:shadow-[0_0_20px_#39FF14] transition-all flex items-center justify-center">
+<span class="material-symbols-outlined">send</span>
+</button>
+</div>
+</div>
+</div>
+</main>
+<!-- FAB: Help/Hint Action (Only for context, usually suppressed on Detail but here useful for gaming hint) -->
+<button class="fixed bottom-8 left-8 w-14 h-14 rounded-full bg-secondary text-on-secondary shadow-[0_0_20px_rgba(255,116,65,0.4)] flex items-center justify-center transition-transform hover:scale-110 active:scale-95 z-50">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">lightbulb</span>
+</button>
+</body></html>
